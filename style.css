@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-/* Reset */
+
+/* --Reset--  */
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +12,13 @@ li {
 a {
   text-decoration: none;
 }
-/* Shared Styles */
 :root {
   --primary-color: #4e47ff;
   --secondary-color: #252432;
   --text-white: #fff;
 }
 
+/* --Shared Styles-- */
 .btn-primary {
   font-size: 16px;
   padding: 16px 38px;
@@ -34,12 +35,15 @@ a {
   /* font-size: 17px;Not Looking Good */
   /* transform: scale(1.1);  Not Looking Good */
 }
+.btn-full-width {
+  width: 100%;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
 }
 
-/* Main Styles */
+/* -- Main Styles Start-- */
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #f5f8ff;
@@ -71,7 +75,7 @@ nav .logo {
   margin-bottom: 37px;
 }
 
-/* Main Sections*/
+/* --Main Sections--*/
 .see-action-sec {
   margin: 116px 0;
   display: flex;
@@ -94,6 +98,7 @@ nav .logo {
 .see-action-sec-img img {
   border-radius: 48px;
 }
+
 /* Show User Section */
 .show-user {
   background-color: #e5e7ff;
@@ -123,6 +128,7 @@ nav .logo {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
+
 /* Feedback Section */
 .feedback {
   margin: 137px 0;
@@ -186,6 +192,7 @@ nav .logo {
   margin-top: 20px;
   border-radius: 48px;
 }
+
 /* Get in Touch  */
 .getintouch {
   margin: 90px 0 14px 0;
@@ -227,9 +234,6 @@ div label {
   margin: 10px 0;
   display: block;
   font-weight: bold;
-}
-.btn-full-width {
-  width: 100%;
 }
 /* Footer */
 footer {
