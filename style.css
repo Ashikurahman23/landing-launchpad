@@ -30,6 +30,8 @@
 /* Main Styles */
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #f5f8ff;
+  color: var(--secondary-color);
 }
 header {
   background: url(/Assets/Hero-bg.png) no-repeat center / cover;
@@ -55,4 +57,58 @@ nav .logo {
   font-size: 65px;
   font-weight: bold;
   margin-bottom: 37px;
+}
+
+/* Main Sections*/
+.see-action-sec {
+  margin: 116px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.see-action-sec-content {
+  max-width: 517px;
+}
+.see-action-sec-content h3 {
+  color: var(--secondary-color);
+  font-size: 42px;
+  font-weight: bold;
+}
+.see-action-sec-content p {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin: 23px 0;
+}
+.see-action-sec-img img {
+  border-radius: 60px;
+}
+/* Show User Section */
+.show-user {
+  background-color: #e5e7ff;
+  padding: 50px 80px;
+  margin-bottom: 137px;
+  border-radius: 30px;
+}
+.show-user-heading {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.show-user-counters {
+  display: flex;
+  justify-content: space-around;
+}
+.show-user-counter {
+  font-family: 'Inter';
+  text-align: center;
+  margin-top: 50px;
+}
+.counter-heading {
+  color: var(--primary-color);
+  font-size: 80px;
+  font-weight: bold;
+}
+.counter-name {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
