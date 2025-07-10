@@ -80,13 +80,13 @@ nav .logo {
   margin: 23px 0;
 }
 .see-action-sec-img img {
-  border-radius: 60px;
+  border-radius: 48px;
 }
 /* Show User Section */
 .show-user {
   background-color: #e5e7ff;
   padding: 50px 80px;
-  border-radius: 30px;
+  border-radius: 24px;
 }
 .show-user-heading {
   font-size: 38px;
@@ -131,7 +131,7 @@ nav .logo {
 .feedback-item {
   background-color: #fff;
   padding: 24px;
-  border-radius: 10px;
+  border-radius: 14px;
   border: 2px solid #f2eded;
 }
 .stars {
@@ -154,4 +154,65 @@ nav .logo {
 }
 .author-date {
   color: rgba(37, 36, 50, 0.5);
+}
+.ready-to-focus {
+  background-color: #fff;
+  padding: 71px 150px;
+  text-align: center;
+  border-radius: 14px;
+}
+.focus-heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+.focus-subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  margin: 20px 0;
+}
+.ready-to-focus img {
+  margin-top: 20px;
+  border-radius: 48px;
+}
+/* Get in Touch  */
+.getintouch {
+  margin: 90px 0 14px 0;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.getintouch div {
+  margin: 19px 0;
+}
+.getintouch-heading {
+  font-size: 97px;
+  font-weight: bold;
+}
+form {
+  width: 600px;
+  font-family: 'Inter';
+  font-size: 18px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 20px 32px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  font-family: 'Inter';
+}
+textarea {
+  resize: none;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid var(--primary-color);
+}
+div label {
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
 }
